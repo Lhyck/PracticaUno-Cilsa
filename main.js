@@ -1,7 +1,19 @@
+function validateForm(){
+    let form = document.getElementById(form1);
+
+    if (!form.checkValidity()){
+        form.reportValidity();
+        return false;
+    }
+    return true;
+}
+
+
+
 
 function onClick(event) {
     event.preventDefault();
-   // this.style.backgroundColor = "salmon";
+   if(!validateForm()) return;
     console.log("click ...");
     console.log(event);
 
@@ -16,7 +28,6 @@ function onClick(event) {
 
     }
     console.log(mensaje);
-
 
     fetch('https://jsonplaceholder.typicode.com/posts', {
             method: "POST",
