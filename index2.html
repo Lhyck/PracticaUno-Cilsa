@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <script src='//cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+    <title>Cilsa-Practicas</title> 
+</head>
+<body>
+    <header>
+  <h1>Primera Práctica Cilsa</h1>
+    </header>
+    <section id="formulario">
+        <form action="" id="form1">
+            <h2>Registro </h2>
+            <div>
+                <label for="name">Nombre</label>
+           <br><input type="text" id="nombre" name="nombre" required="">
+            </div> 
+           <div>
+            <label for="apellido">Apellido</label>
+            <br><input type="text" id="apellido" name="apellido" required="">
+           </div>
+            <div>
+                <label for="email">Email</label>
+                <br><input type="email" id="email" name="email" required="">
+            </div>
+           <div>
+            <label for="fechaDeNacimiento">Fecha de Nacimiento</label>
+            <br><input type="date" id="fechaDeNacimiento" name="fecha" required="">
+           </div>
+            <div>
+                <div>
+                    <label for="paisDeResidencia">Pais de Residencia</label>
+                    <br>
+                    <select name="pais" id="paisDeResidencia">
+                        <option value="">País</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CH">Chile</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Perú</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="VE">Venezuela</option>
+                    </select>
+                </div>
+            </div>
+           <div>
+            <input class="boton" type="submit" value="Registrarse" >
+            
+            <button id="enviar" class="boton">Enviar</button>
+
+           </div>
+           <div>
+            <a href="index.html" class="boton2" >Alto Contraste </a>
+            <a href="index2.html" class="boton2"  >Bajo Contraste</a>
+        </div>
+        </form>
+       
+    </section>
+    <footer>
+        <div>
+            <img src="./src/instagram_108043.png" > <h6>@Comenzando</h6>    
+        </div>      
+     <h4>Liliana Cortez 2024</h4>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html> 
