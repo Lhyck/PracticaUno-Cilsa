@@ -16,25 +16,25 @@
             <h2>Registro </h2>
             <div>
                 <label for="name">Nombre</label>
-           <br><input type="text" id="nombre" name="nombre" required="">
+           <br><input type="text" id="nombre"  name="nombre" required="" >
             </div> 
            <div>
             <label for="apellido">Apellido</label>
-            <br><input type="text" id="apellido" name="apellido" required="">
+            <br><input type="text" id="apellido" name="apellido" required="" >
            </div>
             <div>
                 <label for="email">Email</label>
-                <br><input type="email" id="email" name="email" required="">
+                <br><input type="email" id="email" pattern="[65-90 && 97-122 && 0-9  && 64]" name="email" required="" >
             </div>
            <div>
-            <label for="fechaDeNacimiento">Fecha de Nacimiento</label>
+            <label for="fechaDeNacimiento"  >Fecha de Nacimiento</label>
             <br><input type="date" id="fechaDeNacimiento" name="fecha" required="">
            </div>
             <div>
                 <div>
                     <label for="paisDeResidencia">Pais de Residencia</label>
                     <br>
-                    <select name="pais" id="paisDeResidencia">
+                    <select name="pais" id="paisDeResidencia" required="">
                         <option value="">País</option>
                         <option value="AR">Argentina</option>
                         <option value="BO">Bolivia</option>
@@ -49,14 +49,14 @@
                     </select>
                 </div>
             </div>
-           <div>          
-            <button id="enviar" class="boton">Enviar</button>
+           <div>
+                <button id="enviar" type="submit"  class="boton">Enviar</button>
 
            </div>
-           <div>
-            <a href="index.html" class="boton2" >Alto Contraste </a>
-            <a href="index2.html" class="boton2"  >Bajo Contraste</a>
-        </div>
+            <div>
+                <a href="index.html"   >Alto Contraste </a>
+                <a href="index2.html"   >Bajo Contraste</a>
+            </div>
         </form>
        
     </section>

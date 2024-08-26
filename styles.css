@@ -74,5 +74,9 @@ footer{
         width: 30px;
         border-radius: 5px;
         align-items: center;
-    }    
+    }   
+    div{
+        align-items: center;
+        display: flexbox;
+    } 
 }

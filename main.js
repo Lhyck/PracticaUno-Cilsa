@@ -1,5 +1,5 @@
 function validateForm(){
-    let form = document.getElementById(form1);
+    let form = document.getElementById("form1");
 
     if (!form.checkValidity()){
         form.reportValidity();
