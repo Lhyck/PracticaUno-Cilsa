@@ -62,17 +62,25 @@ section{
     width: 6%;
 }
 
-
 footer{
-    background-color: silver;
-    padding: 5px;
+    background-color:goldenrod;
+    padding: 15px;
+    
+   
     div{
-        display: grid;
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
+      
     img{
         height: 30px;
         width: 30px;
         border-radius: 5px;
         align-items: center;
-    }    
-}
+    }
+    h4{
+        text-align: center;
+        justify-content: center;
+    }
+   }

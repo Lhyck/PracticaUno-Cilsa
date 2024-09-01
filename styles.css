@@ -65,18 +65,23 @@ section{
 
 footer{
     background-color:goldenrod;
-    padding: 5px;
+    padding: 15px;
+    
+   
     div{
-        display: grid;
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
+      
     img{
         height: 30px;
         width: 30px;
         border-radius: 5px;
         align-items: center;
-    }   
-    div{
-        align-items: center;
-        display: flexbox;
-    } 
-}
+    }
+    h4{
+        text-align: center;
+        justify-content: center;
+    }
+   }
